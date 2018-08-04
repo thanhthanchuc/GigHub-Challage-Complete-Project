@@ -1,7 +1,13 @@
-﻿@model dynamic
+﻿@model GigHub.Models.Gig
 
 @{
-    ViewBag.Title = "title";
+    ViewBag.Title = "Create";
 }
 
 <h2>title</h2>
+<form>
+    <div class="form-group">
+        @Html.LabelFor(m=>m.Venua)
+        @Html.LabelFor(m=>m.Venua, new {@class="form-control"})
+    </div>
+</form>
