@@ -1,16 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
-using GigHub.Models;
+﻿using GigHub.Models;
 using GigHub.ViewModels;
+using System.Linq;
+using System.Web.Mvc;
 
 namespace GigHub.Controllers
 {
     public class GigsController : Controller
     {
-        private ApplicationDbContext _context;
+        private readonly ApplicationDbContext _context;
 
         public GigsController()
         {
@@ -22,7 +19,6 @@ namespace GigHub.Controllers
             _context.Dispose();
         }
 
-        // GET: Gigs
         public ActionResult Create()
         {
             var viewMode = new GigFormViewModel
