@@ -218,6 +218,18 @@
     <Compile Include="Migrations\201808041257020_PopulateGenre.Designer.cs">
       <DependentUpon>201808041257020_PopulateGenre.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201808041416174_AddArtistAndDropAppliactionUserOfGigsTable.cs" />
+    <Compile Include="Migrations\201808041416174_AddArtistAndDropAppliactionUserOfGigsTable.Designer.cs">
+      <DependentUpon>201808041416174_AddArtistAndDropAppliactionUserOfGigsTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201808041425116_AddArtistAndDropAppliactionUserOfGigsTable1.cs" />
+    <Compile Include="Migrations\201808041425116_AddArtistAndDropAppliactionUserOfGigsTable1.Designer.cs">
+      <DependentUpon>201808041425116_AddArtistAndDropAppliactionUserOfGigsTable1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201808041426304_AddForeignKeyBettwenUserAndGig.cs" />
+    <Compile Include="Migrations\201808041426304_AddForeignKeyBettwenUserAndGig.Designer.cs">
+      <DependentUpon>201808041426304_AddForeignKeyBettwenUserAndGig.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -318,6 +330,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201808041257020_PopulateGenre.resx">
       <DependentUpon>201808041257020_PopulateGenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808041416174_AddArtistAndDropAppliactionUserOfGigsTable.resx">
+      <DependentUpon>201808041416174_AddArtistAndDropAppliactionUserOfGigsTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808041425116_AddArtistAndDropAppliactionUserOfGigsTable1.resx">
+      <DependentUpon>201808041425116_AddArtistAndDropAppliactionUserOfGigsTable1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808041426304_AddForeignKeyBettwenUserAndGig.resx">
+      <DependentUpon>201808041426304_AddForeignKeyBettwenUserAndGig.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
