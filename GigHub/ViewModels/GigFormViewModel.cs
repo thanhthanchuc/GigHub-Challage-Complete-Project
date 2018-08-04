@@ -13,5 +13,7 @@ namespace GigHub.ViewModels
         public string Time { get; set; }
         public byte Genre { get; set; }
         public IEnumerable<Genre> Genres { get; set; }
+
+        public DateTime DateTime => DateTime.Parse($"{Date} {Time}");
     }
 }

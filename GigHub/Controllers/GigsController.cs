@@ -39,7 +39,7 @@ namespace GigHub.Controllers
             {
                 Venua = viewModel.Venua,
                 GenreId = viewModel.Genre,
-                DateTime = DateTime.Parse($"{viewModel.Date} {viewModel.Time}"),
+                DateTime = viewModel.DateTime,
                 ArtistId = User.Identity.GetUserId()
         };
             _context.Gigs.Add(gig);
