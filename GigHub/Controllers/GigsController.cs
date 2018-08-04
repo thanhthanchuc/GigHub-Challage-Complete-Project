@@ -19,6 +19,7 @@ namespace GigHub.Controllers
             _context.Dispose();
         }
 
+        [Authorize]
         public ActionResult Create()
         {
             var viewMode = new GigFormViewModel
