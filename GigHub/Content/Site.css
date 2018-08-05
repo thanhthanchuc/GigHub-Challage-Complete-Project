@@ -37,3 +37,47 @@ textarea {
 .navbar-inverse .navbar-brand {
     color: wheat;
 }
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    height: 40px;
+    font-size: 17px;
+    -ms-border-radius: 9px;
+    border-radius: 9px;
+}
+
+label {
+    margin-bottom: 6px;
+    font-size: 17px;
+}
+
+.btn {
+    font-size: 17px;
+    padding: 7px 20px;
+    -ms-border-radius: 9px;
+    border-radius: 9px;
+}
+
+body {
+    background-color: #eee
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    color: #fff;
+    background-color: #c30e4b;
+}
+
+.dropdown-menu {
+    background-color: #c30e4b;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    background-color: #c30e96;
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
