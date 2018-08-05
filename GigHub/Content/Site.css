@@ -22,3 +22,18 @@ select,
 textarea {
     max-width: 280px;
 }
+
+
+/*Override bootstrap*/
+.navbar-inverse {
+    background-color: crimson;
+    border-color: red;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: wheat;
+}
+
+.navbar-inverse .navbar-brand {
+    color: wheat;
+}
