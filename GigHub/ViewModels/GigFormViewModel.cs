@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 using GigHub.Models;
+using GigHub.ViewModels.CustomValidationAttribute;
 
 namespace GigHub.ViewModels
 {
@@ -13,9 +14,11 @@ namespace GigHub.ViewModels
         public string Venua { get; set; }
 
         [Required]
+        [FutureDay]
         public string Date { get; set; }
 
         [Required]
+        [FutureTime]
         public string Time { get; set; }
 
         [Required]
